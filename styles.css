@@ -26,7 +26,8 @@
 }
 
 h1 {
-    color: #631D76
+    color: #631D76;
+    text-align: center
 }
 
 /* https://www.w3schools.com/howto/howto_js_collapsible.asp*/
