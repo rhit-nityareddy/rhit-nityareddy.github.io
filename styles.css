@@ -54,4 +54,16 @@ h1 {
     background-color: #f1f1f1
 }
 
+.collapsible:after {
+    content: '\02795';
+    font-size: 13px;
+    color: white;
+    float: right;
+    margin-left: 5px;
+
+}
+.activeCollapsible:after {
+    content: '\2796'
+}
+
 
