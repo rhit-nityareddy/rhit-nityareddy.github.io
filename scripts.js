@@ -9,7 +9,7 @@ let navbar = `
   <a href="portfolio.html">Portfolio</a>
 `;
 window.addEventListener("load", function() {
-  document.getElementsByClassName("nav").innerHTML = navbar;
+  document.getElementsByClassName("nav")[0].innerHTML = navbar;
 })
 
 
