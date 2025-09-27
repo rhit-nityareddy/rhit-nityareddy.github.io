@@ -7,7 +7,7 @@ window.addEventListener("load", function() {
   let nav = `<a href="index.html">Main</a>
       <a href="resume.html">Resume</a>
       <a href="portfolio.html">Portfolio</a>`;
-  document.getElementsByClassName[0]("nav").innerHTML = nav;
+  document.getElementsByClassName("nav")[0].innerHTML = nav;
 })
 
 
