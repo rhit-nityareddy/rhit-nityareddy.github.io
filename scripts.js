@@ -1,10 +1,10 @@
 /*
-* https://www.w3schools.com/jsref/dom_obj_pushbutton.asp
+* https://www.w3schools.com/jsref/prop_html_innerhtml.asp
 */
-let b = document.createElement("mainButton")
-b.addEventListener("click", () => {
-    
-})
+let nav = `<a href="index.html">Main</a>
+      <a href="resume.html">Resume</a>
+      <a href="portfolio.html">Portfolio</a>`;
+document.getElementById("nav").innerHTML = nav;
 
 
 /**

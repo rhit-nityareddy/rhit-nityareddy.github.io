@@ -1,12 +1,12 @@
 /**I learned how to make a navbar from 
   https://www.w3schools.com/howto/howto_js_topnav.asp
 */
-.nav {
+#nav {
     background-color: #2e2532;
     overflow: hidden
 }
 
-.nav a {
+#nav a {
     float: left;
     color: #fbfbfb;
     text-align: center;
@@ -15,12 +15,12 @@
     font-size: 17px
 }
 
-.nav a:hover {
+#nav a:hover {
     background-color: #fbfbfb;
     color: #201a23;
 }
 
-.nav a.active {
+#nav a.active {
     background-color: #9e4770;
     color: #fbfbfb
 }
