@@ -1,10 +1,18 @@
-/*
-* https://www.w3schools.com/jsref/prop_html_innerhtml.asp
-*/
-let nav = `<a href="index.html">Main</a>
+
+
+window.addEventListener("load", function() {
+  /*
+  * https://www.w3schools.com/jsref/prop_html_innerhtml.asp
+  */
+  let nav = `<a href="index.html">Main</a>
       <a href="resume.html">Resume</a>
       <a href="portfolio.html">Portfolio</a>`;
-document.getElementById("nav").innerHTML = nav;
+  document.getElementById("nav").innerHTML = nav;
+})
+
+
+
+
 
 
 /**
