@@ -4,10 +4,10 @@ window.addEventListener("load", function() {
   /*
   * https://www.w3schools.com/jsref/prop_html_innerhtml.asp
   */
-  let nav = `<div id = "nav"> <a href="index.html">Main</a>
+  let nav = `<a href="index.html">Main</a>
       <a href="resume.html">Resume</a>
-      <a href="portfolio.html">Portfolio</a> </div>`;
-  document.getElementById("nav").innerHTML = nav;
+      <a href="portfolio.html">Portfolio</a>`;
+  document.getElementsByClassName[0]("nav").innerHTML = nav;
 })
 
 
