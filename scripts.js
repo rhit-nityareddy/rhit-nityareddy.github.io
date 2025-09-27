@@ -2,12 +2,15 @@
 /** DOM elements
  * https://www.w3schools.com/jsref/prop_html_innerhtml.asp
  */
-
-let navbar = `
+/* <div>
   <a href="index.html">Main</a>
   <a href="resume.html">Resume</a>
   <a href="portfolio.html">Portfolio</a>
+  </div> */
+let navbar = `
+  <p>Help</p>  
 `;
+
 window.addEventListener("load", function() {
   document.getElementsByClassName("nav")[0].innerHTML = navbar;
 })
