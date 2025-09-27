@@ -1,12 +1,4 @@
 
-/*
-* https://www.w3schools.com/jsref/dom_obj_pushbutton.asp
-*/
-let b = document.createElement("mainButton")
-b.addEventListener("click", () => {
-    
-})
-
 
 /**
  * https://www.w3schools.com/howto/howto_js_collapsible.asp
