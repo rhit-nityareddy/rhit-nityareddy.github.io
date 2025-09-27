@@ -1,4 +1,11 @@
 
+let navbar = `
+  <a href="index.html">Main</a>
+  <a href="resume.html">Resume</a>
+  <a href="portfolio.html">Portfolio</a>
+`;
+
+document.getElementsByClassName("nav").innerHTML = navbar;
 
 /**
  * https://www.w3schools.com/howto/howto_js_collapsible.asp
