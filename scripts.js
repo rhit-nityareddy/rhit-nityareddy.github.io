@@ -3,16 +3,17 @@
  * https://www.w3schools.com/jsref/prop_html_innerhtml.asp
  */
 
-window.addEventListener("load", function() {
-  let navbar = `
+let navbar = `
   <a href="index.html">Main</a>
   <a href="resume.html">Resume</a>
   <a href="portfolio.html">Portfolio</a>
 `;
+window.addEventListener("load", function() {
+  document.getElementsByClassName("nav").innerHTML = navbar;
 })
 
 
-document.getElementsByClassName("nav").innerHTML = navbar;
+
 
 /** Collapsible 
  * https://www.w3schools.com/howto/howto_js_collapsible.asp
