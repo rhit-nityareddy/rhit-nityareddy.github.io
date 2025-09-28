@@ -2,11 +2,7 @@
 /** DOM elements
  * https://www.w3schools.com/jsref/prop_html_innerhtml.asp
  */
-/* <div>
-  <a href="index.html">Main</a>
-  <a href="resume.html">Resume</a>
-  <a href="portfolio.html">Portfolio</a>
-  </div> */
+
 let navbar = `
   <div>
     <a href="index.html">Main</a>
@@ -15,10 +11,16 @@ let navbar = `
   </div> 
 `;
 
+let footbar = `
+  <div>
+    <a href="https://www.linkedin.com/in/nitya-reddy-926a21380/">Linkedin</a>
+  </div> 
+`;
+
 window.addEventListener("load", function() {
   document.getElementsByClassName("nav")[0].innerHTML = navbar;
+  document.getElementsByClassName("foot")[0].innerHTML = footbar;
 })
-
 
 
 
